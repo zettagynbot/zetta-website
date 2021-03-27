@@ -13,12 +13,15 @@ svg#borda-direita{position: absolute; right: 11px;}
 svg#borda-rodape-esq{position: fixed; left: 0; bottom: 30px; display: none; z-index: 10;}
 svg#borda-rodape-dir{position: fixed; right: 0; bottom: 30px; display: none; z-index: 10;}
 @media screen and (max-width: 500px) {
-    footer{display: block; }
+    header{width: 100%;}
+    footer{display: block; width: 100%;}
     aside{display: none;}
+    svg#borda-esquerda{display: none;}
+    svg#borda-direita{display: none;}
     svg#borda-topo{display: none;}
     svg#borda-base{display: none;}
-    svg#borda-rodape-esq{display: block; width: 20px; height: 20px; background: transparent;}
-    svg#borda-rodape-dir{display: block; width: 20px; height: 20px; background: transparent}
+    svg#borda-rodape-esq{display: none; width: 20px; height: 20px; background: transparent}
+    svg#borda-rodape-dir{display: none; width: 20px; height: 20px; background: transparent}
  }
 ::-webkit-scrollbar{width: 7px; background: #000;}
 ::-webkit-scrollbar-thumb{width: 7px; background: #111;}
