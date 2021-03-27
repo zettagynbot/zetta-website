@@ -1,0 +1,3 @@
+Fundo-Principal: #1F1F1F
+Fundo-Secundário: #333333
+Amarelo-Principal: #FFFF00
