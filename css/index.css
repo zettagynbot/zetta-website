@@ -3,22 +3,22 @@ body{background: #1F1F1F;}
 section#caixa-principal{width: 100%; height: 800px;}
 nav#home{width: 100%; height: 100%; background: transparent;}
 header{width: calc(100% - 120px); height: 50px; background: #333; position: absolute; top: 0; left: 50%; transform: translateX(-50%);}
-footer{width: calc(100% - 120px); height: 50px; background: #333; position: fixed; bottom: 0; left: 50%; transform: translateX(-50%); display: none;}
+footer{width: 100%; height: 50px; background: #333; position: fixed; bottom: 0; left: 50%; transform: translateX(-50%); display: none;}
 aside{width: 50px; height: calc(100% - 120px); background: #333; position: fixed; left: 0; top: 50%; transform: translateY(-50%); display: block;}
 svg.borda{width: 50px; height: 50px; background: transparent;}
 svg#borda-topo{position: fixed; top: 10px}
 svg#borda-base{position: fixed; bottom: 10px}
 svg#borda-esquerda{position: absolute; left: 11px;}
 svg#borda-direita{position: absolute; right: 11px;}
-svg#borda-rodape-esq{position: fixed; left: 11px; bottom: 0; display: none;}
-svg#borda-rodape-dir{position: fixed; right: 11px; bottom: 0; display: none;}
+svg#borda-rodape-esq{position: fixed; left: 0; bottom: 30px; display: none; z-index: 10;}
+svg#borda-rodape-dir{position: fixed; right: 0; bottom: 30px; display: none; z-index: 10;}
 @media screen and (max-width: 500px) {
     footer{display: block; }
     aside{display: none;}
     svg#borda-topo{display: none;}
     svg#borda-base{display: none;}
-    svg#borda-rodape-esq{display: block;}
-    svg#borda-rodape-dir{display: block;}
+    svg#borda-rodape-esq{display: block; width: 20px; height: 20px; background: transparent;}
+    svg#borda-rodape-dir{display: block; width: 20px; height: 20px; background: transparent}
  }
 ::-webkit-scrollbar{width: 7px; background: #000;}
 ::-webkit-scrollbar-thumb{width: 7px; background: #111;}
