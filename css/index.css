@@ -17,6 +17,7 @@ svg#borda-rodape-dir{position: fixed; right: 0; bottom: 30px; display: none; z-i
 div.icon{width: 40px; height: 40px; background: #1F1F1F; margin-top: 10px; margin-bottom: 10px; margin-left: 5px; border-radius: 50%;}
 div.icon:hover{border-radius: 10%; transition: ease-in 0.2s; cursor: pointer;}
 img{width: 100%;}
+img#label-logo{width: 320px; position: absolute; left: 50%; transform: translateX(-50%);}
 div.barra{width: 30px; height: 2px; background: #1F1F1F; margin-left: 10px;}
 @media screen and (max-width: 500px) {
     header{width: 100%;}
@@ -28,6 +29,6 @@ div.barra{width: 30px; height: 2px; background: #1F1F1F; margin-left: 10px;}
     svg#borda-base{display: none;}
     svg#borda-rodape-esq{display: none; width: 20px; height: 20px; background: transparent}
     svg#borda-rodape-dir{display: none; width: 20px; height: 20px; background: transparent}
-    div#caixa-icones{display: flex; justify-content: space-between; width: 90%; height: calc(100%); margin-left: 50%; transform: translateX(-50%); margin-bottom: 10px; background: transparent; cursor: none;}
+    div#caixa-icones{display: flex; justify-content: space-between; width: 85%; height: calc(100%); margin-left: 50%; transform: translateX(-50%); margin-bottom: 10px; background: transparent; cursor: none;}
     div.icon{margin: 0; margin-top: 5px;}
  }
